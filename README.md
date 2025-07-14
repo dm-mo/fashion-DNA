@@ -12,11 +12,15 @@ Versace, Dior, Chanel, YSL, Mcqueen.](figures/brand_looks_sample.JPG)
 ### Luxury101 dataset
 Download from Google Drive [Luxury101](https://drive.google.com/file/d/16MERWudbMn0iGfZivEAiP-gehh1yV-DS/view?usp=sharing)
 
+Store the dataset to the [datasets/fashion_brands](datasets/fashion_brands)
+
 ### Luxury24 dataset
 The Luxury24 dataset can be split from the JSON file of  [Luxury101](https://drive.google.com/file/d/16MERWudbMn0iGfZivEAiP-gehh1yV-DS/view?usp=sharing)
 
 ### Brand5 dataset
-In the [datasets/fashion_brands_looks](datasets/fashion_brands_looks)
+Download from Google Drive [Brand5](https://drive.google.com/file/d/17-gXTL9S9ugUQwHduZeerYeyRpH0qHDe/view?usp=sharing)
+
+Store the dataset to the [datasets/fashion_brands_looks](datasets/fashion_brands_looks)
 
 
 ## Environment Installation
