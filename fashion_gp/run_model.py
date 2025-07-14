@@ -144,7 +144,6 @@ for num_inducing in config['num_inducing']:
         project='fashion_brands',
         config=config,
     )
-    # modm
     # import os
     # os.environ["WANDB_MODE"] = "offline"
     model.train()
