@@ -1,0 +1,38 @@
+# Gaussian Processes for Modeling Fashion Brand DNA: Classification and Identity Fuzziness
+## WACV 2026 | Paper ID 1321
+
+##
+
+![Sample looks of Brand5 dataset. From top to bottom are
+Versace, Dior, Chanel, YSL, Mcqueen.](figures/brand_looks_sample.JPG)
+
+
+
+## Download Dataset
+### Luxury101 dataset
+Download from Google Drive [Luxury101](https://drive.google.com/file/d/16MERWudbMn0iGfZivEAiP-gehh1yV-DS/view?usp=sharing)
+
+### Luxury24 dataset
+The Luxury24 dataset can be split from the JSON file of  [Luxury101](https://drive.google.com/file/d/16MERWudbMn0iGfZivEAiP-gehh1yV-DS/view?usp=sharing)
+
+### Brand5 dataset
+In the [datasets/fashion_brands_looks](datasets/fashion_brands_looks)
+
+
+## Environment Installation
+pip install -r requirements.txt
+
+
+## Files overview
+
+
+### 📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): Reproduce Figure 3 in the paper
+![How the judged probability and the uncertainty measures change as more observations are given to the model.](figures/brand_fuzziness_example.JPG)
+How the judged probability and the uncertainty measures change as more observations are given to the model.
+
+### 📄 [fig5n8_brand_fuzziness.ipynb](fig5n8_brand_fuzziness.ipynb): Reproduce Figure 5 and 8 in the paper:
+![The relationship between judged probability and episteme of positive labels using GPF.](figures/fig8.JPG)
+The relationship between judged probability and episteme of positive labels using GPF.
+
+
+
