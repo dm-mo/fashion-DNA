@@ -27,6 +27,9 @@ Store the dataset to the [datasets/fashion_brands_looks](datasets/fashion_brands
 pip install -r requirements.txt
 
 
+## Training GP
+Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
+
 ## Files overview
 
 
