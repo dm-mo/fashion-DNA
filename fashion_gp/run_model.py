@@ -19,19 +19,12 @@ from library.likelihoods import MinibatchedDirichletClassificationLikelihood, Mu
 config = dict(
     use_gpu=True,
     dataset_root='F://datasets',
-    # dataset_name='fashion_designers_c5',
-    # checkpoint_name='fashion_designers_c5_res101_augx2.bsz_16sz_224.sgd0.002',
 
     dataset_name ='fashion_brands',
     # dataset_name='fashion_brands_looks',
     set_img_num = 3,
-    # checkpoint_name='fashion_brands_101_res101_aug.bsz_16sz_224.sgd0.002', brand101_aug
-    # checkpoint_name='fashion_brands_101_res101_aug_filtered24.bsz_16sz_224.sgd0.002', #brand24_aug
-    # checkpoint_name='fashion_brands_101_res101.3layer.bsz_16sz_224.sgd0.002', #brand101'
     checkpoint_name='fashion_brands_101_res101_filtered24.bsz_16sz_224.sgd0.002', #brand101'
-    # checkpoint_name='brands_c5_100looks_res101_cat_514.bsz_16sz_224.sgd0.002',  # brand101
 
-    # checkpoint_name='imagenet',
     num_inducing = [100,200,300,400,500,600,700,800], #100
     latent_dim = 10, #[5,10,15,20,25,30,35,40,45,50], #10
     model_name='DirichletGPModel', #MultitaskDirichletGPModel DirichletGPModel MeanFieldDecoupledModel MAPApproximateGP OrthDecoupledApproximateGP
@@ -65,9 +58,6 @@ for num_inducing in config['num_inducing']:
 
     embedding_path = Path('./embeddings/') / dataset_name / checkpoint_name
     dataset_path = Path(dataset_root) / dataset_name
-    # train_metadata = json.loads((dataset_path / 'train_514.json').read_text())
-    # test_metadata = json.loads((dataset_path / 'test_514.json').read_text())
-    # val_metadata = json.loads((dataset_path / 'val_514.json').read_text())
 
     train_metadata = json.loads((dataset_path / 'train_c24.json').read_text())
     test_metadata = json.loads((dataset_path / 'test_c24.json').read_text())
