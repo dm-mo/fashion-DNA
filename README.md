@@ -7,6 +7,13 @@
 Versace, Dior, Chanel, YSL, Mcqueen.](figures/brand_looks_sample.JPG)
 
 
+## Dataset summary
+| Dataset   |  Train |  Val  |  Test |  Total |
+|-----------|--------|-------|-------|--------|
+| Luxury101 | 11,743 | 1,678 | 3,356 | 16,777 |
+| Luxury24  | 7,340  | 1,043 | 2,070 | 10,453 |
+| Brand5    | 700    | 100   | 200   | 1,000  |
+
 
 ## Download Dataset
 ### Luxury101 dataset
