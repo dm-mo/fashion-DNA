@@ -37,14 +37,16 @@ pip install -r requirements.txt
 ## Training GP
 Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 
-## Files overview
+## Reproducing the Results
 
-
-### 📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): Reproduce Figure 3 in the paper
+### Reproduce Figure 3 in the paper
+### Follow  📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): 
 ![How the judged probability and the uncertainty measures change as more observations are given to the model.](figures/brand_fuzziness_example.JPG)
 How the judged probability and the uncertainty measures change as more observations are given to the model.
 
-### 📄 [fig5n8_brand_fuzziness.ipynb](fig5n8_brand_fuzziness.ipynb): Reproduce Figure 5 and 8 in the paper:
+### Reproduce Figure 5 and 8 in the paper
+
+### Follow 📄 [fig5n8_brand_fuzziness.ipynb](fig5n8_brand_fuzziness.ipynb):  
 ![The relationship between judged probability and episteme of positive labels using GPF.](figures/fig8.JPG)
 The relationship between judged probability and episteme of positive labels using GPF.
 
