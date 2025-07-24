@@ -1,5 +1,4 @@
 # Gaussian Processes for Modeling Fashion Brand DNA: Classification and Identity Fuzziness
-## WACV 2026 | Paper ID 1321
 
 ##
 
