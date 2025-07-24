@@ -38,16 +38,18 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 
 ## Reproducing the Results
 
-### Reproduce Figure 3 in the paper
+### (1) Reproduce Figure 3 in the paper
 ### Follow  📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): 
 ![How the judged probability and the uncertainty measures change as more observations are given to the model.](figures/brand_fuzziness_example.JPG)
 How the judged probability and the uncertainty measures change as more observations are given to the model.
 
 ### Reproduce Figure 5 and 8 in the paper
 
-### Follow 📄 [fig5n8_brand_fuzziness.ipynb](fig5n8_brand_fuzziness.ipynb):  
+### (2) Follow 📄 [fig5n8_brand_fuzziness.ipynb](fig5n8_brand_fuzziness.ipynb):  
 ![The relationship between judged probability and episteme of positive labels using GPF.](figures/fig8.JPG)
 The relationship between judged probability and episteme of positive labels using GPF.
+
+### (3) Other details coming soon
 
 
 
