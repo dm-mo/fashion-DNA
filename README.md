@@ -1,6 +1,10 @@
 # Gaussian Processes for Modeling Fashion Brand DNA: Classification and Identity Fuzziness
 ### Anonymous
 
+A distinct style and strong identity define luxury branding. This paper explores fashion DNA from a visual identity perspective. While existing studies focus on logo recognition using visual or textual cues, we instead examine abstract visual features across multiple collections. We address two challenges: (1) classifying dresses by brand—a task more complex than general fashion category classification—and (2) analyzing the fuzziness of brand identity through complete fashion looks. These looks, which include a dress, shoes, and a bag, offer a more holistic representation of a brand’s aesthetic than single-item analysis.
+To achieve these goals, we develop a multitask Gaussian process (GP) model that is based on DirichletGP with uncertainty-aware probing. The model leverages representations from pre-trained deep neural networks and learns the distribution of classifiers across different brands and designers, enabling efficient recognition of brand identity and analysis of fuzziness. It can explore brand identity even with a small amount of fashion data, which differs from data-driven methods. Aligning with the tasks, Luxury101 and brand5 datasets are collected to test the performance of the GP model. Experimental results demonstrate that the GP model can serve as a data-efficient and uncertainty-aware tool for understanding brand identity and identifying fuzziness among different brands. We also evaluate the GP model on additional datasets (CIFAR-100 and Fashion MNIST) to demonstrate its generalisability and scalability.
+This study is the first to explore brand identity classification and fuzziness learning using a GP with uncertainty-aware probing, offering a novel, scalable approach for understanding abstract brand identity in a measurable and visually interpretable way.
+
 ## Dataset summary
 | Dataset   |  Train |  Val  |  Test |  Total |
 |-----------|--------|-------|-------|--------|
@@ -57,3 +61,4 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 </figure>
 
 ### (3) Other details coming soon
+
