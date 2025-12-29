@@ -32,7 +32,7 @@ Download from Google Drive [Brand5](https://drive.google.com/file/d/17-gXTL9S9ug
 Store the dataset to the [datasets/fashion_brands_looks](datasets/fashion_brands_looks)
 
 <figure>
-  <img src="figures/brand_looks_sample.jpg" alt="Iconic looks." width="100%">
+  <img src="figures/brand_looks_sample.jpg" alt="Iconic looks." width="80%">
   <figcaption>Sample looks of Brand5 dataset.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 ### (1) Reproduce Figure 4 in the paper
 #### Follow  📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): 
 <figure>
-  <img src="figures/brand_fuzziness_example.jpg" width="100%">
+  <img src="figures/brand_fuzziness_example.jpg" width="80%">
   <figcaption>How the judged probability and the uncertainty measures change as more observations are given to the model.</figcaption>
 </figure>
 
@@ -56,10 +56,11 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 
 #### Follow 📄 [fig4_6_7_brand_fuzziness.ipynb](fig4_6_7_brand_fuzziness.ipynb):  
 <figure>
-  <img src="figures/fig8.jpg" width="100%">
+  <img src="figures/fig8.jpg" width="80%">
   <figcaption>The relationship between judged probability and episteme of positive labels using GPF.</figcaption>
 </figure>
 
 ### (3) Other details coming soon
+
 
 
