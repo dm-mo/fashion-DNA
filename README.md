@@ -45,14 +45,14 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 
 ## Reproducing the Results
 
-### (1) Reproduce Figure 3 in the paper
+### (1) Reproduce Figure 4 in the paper
 #### Follow  📄 [fig3_brand_fuzziness_visual.ipynb](fig3_brand_fuzziness_visual.ipynb): 
 <figure>
   <img src="figures/brand_fuzziness_example.jpg" width="100%">
   <figcaption>How the judged probability and the uncertainty measures change as more observations are given to the model.</figcaption>
 </figure>
 
-### (2) Reproduce Figure 4, 6, 7 in the paper
+### (2) Reproduce other Figures in the paper
 
 #### Follow 📄 [fig4_6_7_brand_fuzziness.ipynb](fig4_6_7_brand_fuzziness.ipynb):  
 <figure>
@@ -61,4 +61,5 @@ Run the file:  [fashion_gp/run_model.py](fashion_gp/run_model.py)
 </figure>
 
 ### (3) Other details coming soon
+
 
